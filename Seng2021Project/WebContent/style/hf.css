@@ -1,0 +1,98 @@
+
+.allcontain{
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+	background-color: #191919;
+	height: 50px;
+}
+
+.header .container{
+	padding: 0px;
+}
+
+.logreg{
+ 	list-style-type: none;
+ 	display: inline-block;
+	font-family: 'BebasNeue Regular';
+	color: #E7E7E;
+	padding-left: 88%;
+}
+
+.logreg>li{
+	padding-top: 3%;
+	font-size: 30px;
+	float: left;
+}
+
+.logreg>li>a{
+	text-decoration: none;
+	color: #E7E7E7;
+	padding-right: 6px;
+}
+
+.logreg>li>a:hover{
+	color:#C59E47;
+}
+
+.logreg .register{
+	border-left: 1px solid #E7E7E7;
+	padding-left: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.logo{
+	z-index: 999;
+	width:124px;
+	height: 124px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+ 
+@font-face {
+  font-family: "BebasNeue Regular";
+    src: url(../source/fonts/BebasNeue-Regular.otf) format("truetype");
+}
+
+#navbarontop > li > a {
+	font-family: 'BebasNeue Regular';
+	font-size: 36px;
+	font-weight:bold;
+	color: #313943;
+	padding-top: 50px;
+	padding-left: 13px;
+}
+
+#navbarontop > li >a:hover{
+	background-color: none!important;
+	background: none!important;
+	border-bottom: 5px solid #C59E47;
+}
+ 
+
+/*----------------------End Header --------------------*/
+
+.footer{
+	max-width:1366px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #191919;
+	color: #fff;
+	font-family: 'BebasNeue Regular';
+	font-size: 12px;
+	height: 50px;
+}
+
+.design{
+	font-size: 30px;
+	float: right;
+	padding-right: 1%;
+	padding-top: 5px;
+	text-decoration: none;
+}

@@ -1,0 +1,39 @@
+#header{
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@font-face{
+	font-family: "OpenSans Semibold";
+	src:url(../source/fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+@font-face {
+  	font-family: "BebasNeue Regular";
+    src: url(../source/fonts/BebasNeue-Regular.otf) format("truetype");
+}
+.plz{
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer{
+	margin-top: 35px;
+	max-width:1366px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #191919;
+	color: #fff;
+	font-family: 'BebasNeue Regular';
+	font-size: 12px;
+	height: 50px;
+	padding-bottom:0px;
+}
+
+.design{
+	font-size: 30px;
+	float: right;
+	padding-right: 1%;
+	padding-top: 5px;
+	text-decoration: none;
+}
